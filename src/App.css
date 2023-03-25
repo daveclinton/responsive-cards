@@ -1,0 +1,76 @@
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+.card {
+  background-color: #262525;
+  color: #fff;
+  padding: 1.5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  max-height: 30rem;
+  max-width: 30rem;
+}
+.card-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  color: #fff;
+  transform: translateX(2rem);
+  transition: transform 2.5s;
+}
+.card-sub-heading {
+  margin-bottom: 1rem;
+}
+.card-description {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.card-cta {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  background-color: #fff;
+}
+.card:hover .card-cta {
+  background-color: #262525;
+  color: #fff;
+}
+
+.card:hover .card-heading {
+  transform: translateX(-115%);
+  color: #fff;
+}
+.card-twitter:hover {
+  background-color: #1da1f2;
+}
+.card-instagram:hover {
+  background: radial-gradient(
+    at 20% 128%,
+    #feda78 20%,
+    #e23467 60%,
+    #ac2bb3 90%
+  );
+}
+.card-facebook:hover {
+  background-color: #4267b2;
+}
+.card-youtube:hover {
+  background-color: #ff074f;
+}
+@media only screen and (max-width: 1024px) {
+  .cards {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
