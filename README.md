@@ -1,3 +1,3 @@
 ## CSS responsive cards with animation effect
 
-![Card Preview](/src/assets/Screencast%20from%2025-03-2023%2011%3A36%3A45%20ASUBUHI.webm "Cards Preview")
+![Card Preview](/src/assets/Screenshot%20from%202023-03-25%2011-38-40.png "Cards Preview")
